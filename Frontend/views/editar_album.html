@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Albumes</title>
+    <link rel="stylesheet" href="/css/albums.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="left-section">
+            <div class="imagen">
+                <img id="img_user" src="profile.jpg" class="profile-pic">
+            </div>
+            <button onclick="window.location.href = 'pagina_inicio.html';" class="boton">Mi Perfil</button>
+            <button onclick="window.location.href = 'ver_fotos.html';" class="boton">Ver fotos</button>
+        </section>
+
+        <section class="right-section">
+            <div class="album-name-input">
+                <label class="labe" for="nom_album">Nombre del Album:</label>
+                <input class="entrada" type="text" id="nom_album" placeholder="Nombre del álbum">
+                <div id="botones_opt">
+                    <button onclick="agregarAlbum()" class="boton">Agregar</button>
+                    <button onclick="modificarAlbum()" class="boton">Modificar</button>
+                    <button onclick="cancelar()" class="boton">Cancelar</button>
+                </div>
+            </div>
+            <label class="labe" for="delete_album">Eliminar Album:</label>
+            <!-- Menú desplegable -->
+            <select class="entrada" id="album-select">
+            </select>
+            <button onclick="eliminarAlbum()" class="boton">Eliminar</button>
+        </section>
+    </div>
+    <button onclick="window.location.href = 'pagina_inicio.html';" id="button_back">Regresar</button>
+    <script src="/js/album.js"></script>
+</body>
+
+</html>

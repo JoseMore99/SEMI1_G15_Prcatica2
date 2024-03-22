@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Datos de Usuario</title>
+  <link rel="stylesheet" href="/css/inicio.css">
+</head>
+<body>
+  <header>
+    <h1>Datos de Usuario</h1>
+  </header>
+  <div class="container">
+    <div class="user-info">
+      <h2>Nombre de usuario:</h2>
+      <p id="nombre_usuario">Usuario123</p>
+      <h2>Nombre Completo:</h2>
+      <p id="nombre_completo">Nombre Pendiente</p>
+      <button onclick="window.location.href = 'editar_perfil.html';" class="btn">Editar perfil</button>
+      <button onclick="window.location.href = 'index.html';" class="btn">Cerrar Sesión</button>
+    </div>
+    <div class="user-image">
+      <img id="img_user"  alt="User Avatar">
+    </div>
+  </div>
+  <div class="buttons-container">
+    <button onclick="window.location.href = 'ver_fotos.html';" class="btn">Ver Fotos</button>
+    <button onclick="window.location.href = 'subir_foto.html';" class="btn">Subir Foto</button>
+    <button onclick="window.location.href = 'editar_album.html';" class="btn">Editar Álbumes</button>
+  </div>
+  <script src="/js/inicio.js"></script>
+</body>
+</html>
