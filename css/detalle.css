@@ -1,0 +1,88 @@
+/* Estilos para la página */
+body {
+  background-color: #d0d5e0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #000;
+}
+
+header {
+  background-color: #021c38;
+  color: #fff;
+  padding: 20px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.left-section {
+  width: 45%;
+}
+
+.image-box {
+  width: 450px;
+  height: 400px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 7%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-right: 30px;
+  overflow: hidden;
+}
+
+#avatar {
+  width: 100%;
+  height: auto;
+}
+
+.right-section {
+  margin-left: 5px;
+  width: 45%;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+#languageSelect {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+}
+
+#translateBtn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-to-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-to-home:hover {
+  background-color: #0056b3;
+}

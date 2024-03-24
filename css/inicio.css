@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #021c38;
+  color: #fff;
+  padding: 20px;
+  height: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.user-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.user-info h2 {
+  font-weight: bold;
+}
+
+.user-info p {
+  margin-top: 5px;
+}
+
+.user-image {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-right: 490px;
+  overflow: hidden;
+}
+
+.avatar-box {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.user-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#tags1 {
+  position: absolute; 
+  top: 130px; 
+  right: 400px; 
+}
+
+#tags2 {
+  position: absolute;
+  top: 180px; 
+  margin-left: 370px; 
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Fotos</title>
+    <link rel="stylesheet" href="/css/fotos.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-container">
+            <div class="profile-picture">
+                <img id="img_user">
+            </div>
+            <button onclick="window.location.href = 'subir_foto.html';" class="boton">Subir Foto</button>
+            <button onclick="window.location.href = 'editar_album.html';" class="boton">Editar Álbum</button>
+        </div>
+
+        <div class="right-container">
+            <p>Fotos de Perfil</p>
+            <div class="images-section">
+                <!-- Aquí van las imágenes -->
+            </div>
+            <p id="nomA">Álbum 1</p>
+            <div class="albums-section">
+                <!-- Aquí van los álbumes -->
+                
+            </div>
+            <!-- Menú desplegable -->
+            <select class="entrada" id="album-select">
+            </select>
+        </div>
+    </div>
+    <script src="/js/fotos.js"></script>
+</body>
+
+</html>

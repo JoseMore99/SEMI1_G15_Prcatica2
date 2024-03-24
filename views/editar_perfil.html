@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editar Perfil</title>
+  <link rel="stylesheet" href="/css/editar.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <div class="avatar-box">
+        <img src="placeholder.png" alt="Avatar" id="avatar">
+      </div>
+      <input type="file" id="avatar-input" accept="image/*">
+      <label for="avatar-input" class="btn">Nueva Foto</label>
+    </div>
+    <div class="right-section">
+      <h2>Editar Perfil</h2>
+      <form id="form_editar">
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+        </div>
+        <div class="input-group">
+          <label for="fullname">Nombre Completo:</label>
+          <input type="text" id="fullname" name="fullname">
+        </div>
+        <div class="input-group">
+          <label for="password">Confirmar Contraseña:</label>
+          <p>Se debe ingresar la contraseña para poder editar el perfil</p>
+          <input type="password" id="password" name="password">
+        </div>
+        <button type="submit" id="editar_usuario">Editar</button>
+      </form>
+    </div>
+  </div>
+  <button onclick="window.location.href = 'pagina_inicio.html';" type="submit" id="button_back">Regresar</button>
+  <script src="/js/editar.js"></script>
+</body>
+</html>

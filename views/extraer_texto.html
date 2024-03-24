@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto de una Imagen</title>
+  <link rel="stylesheet" href="/css/texto.css">
+</head>
+<body>
+  <header>
+    <h1>Recocimiento de texto</h1>
+  </header>
+  <div class="container">
+    <div class="image-section">
+      <h2>Imagen a analizar</h2>
+      <div class="image-box" id="imageBox">
+        <img id="avatar">
+      </div>
+      <input type="file" id="imageInput" accept="image/*">
+      <label for="imageInput" class="btn">Seleccionar Foto</label>
+    </div>
+    <div class="text-section">
+      <h2>Texto Reconocido</h2>
+      <textarea id="textContent" placeholder="Se mostrará texto reconocido..."></textarea>
+      <button onclick="showText()">Mostrar Texto</button>
+    </div>
+  </div>
+  <a href="pagina_inicio.html" class="back_inicio">Regresar a Inicio</a>
+  <script src="/js/texto.js"></script>
+</body>
+</html>
